@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+video{
+    position: absolute;
+    width: 100%;
+}
+.sesion{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.container{
+    position: relative;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border: 4px solid rgba(255,255,255,0.7);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.titulo{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.input{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid white;
+}
+.input label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.5s;
+}
+input:focus~label,input:valid~label{
+    top: -12px;
+}
+.input input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: -35px 0 5px;
+    color: white;
+}
+.input i{
+    position: absolute;
+    font-size: 1.6rem;
+    top: 19px;
+    right: 8px;
+}
+button{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    box-shadow: 0px 0px 20px white;
+}
+.register{
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px 0px 10px;
+}
+.register a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.35s;
+}
+.register a:hover{
+    text-shadow: 0px 0px 10px white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
